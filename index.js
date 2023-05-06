@@ -1,3 +1,4 @@
+//john array function
 function john(n) {
     var john=[0,0];
   var ann=ann(n);
@@ -11,6 +12,8 @@ function john(n) {
     }
   return john;
 }
+
+//ann array function
 function ann(n) {
     var john=john(n);
   var ann=[1,1];
@@ -24,13 +27,13 @@ function ann(n) {
     }
   return ann;
 }
-
+//summing John fuction
 function sumJohn(n) {
     array=john(n);
   sum = array.reduce((a, b) => a + b, 0);
   return sum;
 }
-
+//summing Ann function
 function sumAnn(n) {
      array=ann(n);
   sum = array.reduce((a, b) => a + b, 0);
